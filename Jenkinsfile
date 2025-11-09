@@ -23,14 +23,7 @@ pipeline {
 	 }
 	
 	}
-	stage('test')
-	{
-	 steps
-	 {
-	   sh 'mvn test'
-	 }
 	
-	}
 	stage('package')
 	{
 	 steps
